@@ -168,7 +168,7 @@ ul {
     font-size: 12q;
     transform: scale(0.8, 1);
     transform-origin: top right;
-    line-height: 1.4;
+    line-height: 1.45;
 }
 
 .tcy {
@@ -217,4 +217,8 @@ strong {
 
 rt {
     font-size: 5q;
+}
+
+.flavor {
+    color: #b6c1c8;
 }
