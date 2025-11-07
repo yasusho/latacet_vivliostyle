@@ -1,0 +1,2 @@
+# latacet_vivliostyle
+日本机戦連盟が輸入販売するゲーム用説明書のvivliostyle作業場です。
