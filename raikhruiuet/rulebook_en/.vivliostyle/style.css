@@ -1,0 +1,106 @@
+@import "reset.css";
+
+@page {
+    margin-top: 10mm;
+    margin-bottom: 10mm;
+    margin-left: 5mm;
+    margin-right: 5mm;
+    size: 257mm 182mm;
+}
+
+img {
+    transform-origin: center;
+    display: block;
+    max-width: 80%;
+    height: auto;
+    margin-block-start: 1ic;
+    margin-left: 1ic;
+}
+
+html {
+    writing-mode: vertical-rl;
+    font-family: "Blogger Sans";
+    color: #134e78;
+}
+
+h1 {
+    display: inline;
+    box-decoration-break: clone;
+    background-color: #134e78;
+    color: white;
+    font-size: 13q;
+    font-weight: bold;
+    letter-spacing: 1q;
+    line-height: 1.7;
+    padding-top: 0.2ic;
+    padding-bottom: 0.2ic;
+    padding-right: 0.2ic;
+    padding-left: 0.2ic;
+}
+
+h2 {
+    font-size: 13q;
+    font-weight: bold;
+    padding-right: 0.1ic;
+    padding-left: 0.1ic;
+}
+
+p,
+ul {
+    font-size: 12q;
+    transform-origin: top right;
+    line-height: 1.3;
+    text-align: justify;
+}
+
+.tcy {
+    text-combine-upright: all;
+}
+
+.upright {
+    text-orientation: upright;
+}
+
+ul {
+    list-style: none;
+    margin-block-end: 0;
+}
+
+li::before {
+    content: "・";
+    text-orientation: upright;
+    display: inline-block;
+    transform-origin: center;
+
+}
+
+.lead {
+    font-size: 14q;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.space {
+    margin: 2mm;
+}
+
+.linmarn {
+    font-family: "linzklar_rounded";
+}
+
+.small {
+    font-size: 10q;
+}
+
+rt {
+    font-size: 5q;
+}
+
+.flavor {
+    color: #7493a6;
+    font-style: italic;
+}
