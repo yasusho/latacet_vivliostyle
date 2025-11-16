@@ -68,9 +68,9 @@ During Scoring, any player who earned zero ZOO gains one **Sage’s Bracelet** t
 
 # The Luminous Dragon Egg
 
-A player whose **‘the Far’ and ‘the Near’ sets are *both* "‘Friends’** gains **The Luminous Dragon Egg**. <span class="flavor">This is because a good king must value their friends!</span> If another player has the Egg, you **take it from them**.
+A player whose **‘the Far’ and ‘the Near’ sets are *both* ‘Friends’** gains **The Luminous Dragon Egg**. <span class="flavor">This is because a good king must value their friends!</span> If another player has the Egg, you **take it from them**.
 
-The holder may discard the Egg after Set Creation (before reveal) to ‘read other players’ minds’. Declare **‘the Far’ or ‘the Near’,** and all other players must reveal that declared set. After seeing the cards, the user takes back their two sets and performs Set Creation again. If multiple players qualify in the same round, the player with the stronger **‘the Near’ set** gains it. If still tied, the Egg does not move.
+The holder may discard the Egg after Set Creation (before reveal) to ‘read’ the minds of other players. Declare **‘the Far’ or ‘the Near’,** and all other players must reveal that declared set. After seeing the cards, the user takes back their two sets and performs Set Creation again. If multiple players qualify in the same round, the player with the stronger **‘the Near’ set** gains it. If still tied, the Egg does not move.
 
 # Special Cases
 
