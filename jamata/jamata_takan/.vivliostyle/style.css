@@ -1,0 +1,125 @@
+@import "reset.css";
+
+@page {
+    margin-top: 5mm;
+    margin-bottom: 5mm;
+    margin-left: 5mm;
+    margin-right: 5mm;
+    size: 182mm 257mm;
+}
+
+img {
+    display: block;
+    margin-right: 0.5ic;
+    margin-left: 0.5ic;
+}
+
+html {
+    writing-mode: vertical-rl;
+    font-family: "linzklar_rounded";
+    column-count: 3;
+    column-fill: auto;
+}
+
+h1 {
+    font-size: 16q;
+    color: #045612;
+    font-weight: bold;
+    -webkit-text-stroke: 0.1px #045612;
+    margin-right: 0.25ic;
+    margin-left: 0.25ic;
+    border-left: 0.75mm solid #045612;
+    padding: 0.5ic 0.5ic 0.5ic 0;
+}
+
+h2 {
+    color: #045612;
+    font-size: 14q;
+    font-weight: bold;
+    margin-right: 0.3ic;
+}
+
+p,
+ul,
+ol {
+    font-size: 12q;
+    line-height: 1.6;
+    text-align: justify;
+    text-justify: inter-ideograph;
+    letter-spacing: 0;
+    font-feature-settings: "palt" 0;
+}
+
+.tcy {
+    text-combine-upright: all;
+}
+
+.upright {
+    text-orientation: upright;
+}
+
+ol {
+    list-style: none;
+    counter-reset: ol-num;
+    margin-block-end: 0;
+}
+
+ol li {
+    counter-increment: ol-num;
+    padding-top: 2em;
+    text-indent: -2em;
+}
+
+ol li::before {
+    content: counter(ol-num, cjk-ideographic) "　";
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    margin-block-end: 0;
+}
+
+ul li::before {
+    content: "";
+    text-orientation: upright;
+    display: inline-block;
+}
+
+.lead,
+.lead p {
+    -webkit-text-stroke: 0.1px #045612;
+    color:#045612;
+    font-size: 14q;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.space {
+    margin: 5mm;
+}
+
+.flavor {
+    color: #7493a6;
+}
+
+ruby {
+    ruby-align: center;
+}
+
+rt {
+    font-size: 6q;
+    letter-spacing: -1q;
+    position: relative;
+}
+
+.span-all {
+    column-span: all;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}

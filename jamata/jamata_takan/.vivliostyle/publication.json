@@ -1,0 +1,20 @@
+{
+  "@context": [
+    "https://schema.org",
+    "https://www.w3.org/ns/pub-context"
+  ],
+  "type": "Book",
+  "conformsTo": "https://github.com/vivliostyle/vivliostyle-cli",
+  "name": "jamata",
+  "author": "author",
+  "inLanguage": "x-takan",
+  "dateModified": "2026-04-14T10:08:19.389Z",
+  "readingOrder": [
+    {
+      "url": "rule.html",
+      "name": "一　上"
+    }
+  ],
+  "resources": [],
+  "links": []
+}
